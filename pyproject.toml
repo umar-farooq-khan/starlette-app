@@ -1,0 +1,12 @@
+[project]
+name = "starlette-app"
+version = "0.0.1"
+requires-python = ">=3.10"
+dependencies = [
+    "starlette",
+    "uvicorn",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
